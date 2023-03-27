@@ -7,14 +7,14 @@ As a senior data analyst at the company, you've been given access to the complet
 The executive team has tasked you with generating all of the tables and figures needed for the technical report of the clinical study. They have also asked you for a top-level summary of the study results.
 
 # Summary
-For this assignment I had to utilize python and matplotlib in order to analyze different drug effectiveness on the size of tumors in mice.  I merged the two initial csv files into one and created a summary statistics DataFrame using groupby to get the mean, median, variance, standard deviation, and SEM of the tumor volume. A clean DataFrame was created after dropping any duplicate mice ID's.
+- For this assignment I had to utilize python and matplotlib in order to analyze different drug effectiveness on the size of tumors in mice.  I merged the two initial csv files into one and created a summary statistics DataFrame using groupby to get the mean, median, variance, standard deviation, and SEM of the tumor volume. A clean DataFrame was created after dropping any duplicate mice ID's.
 
-I also created two bar charts and two pie charts using first the DataFrame.plot() method and second the pyplot method. The bar charts displayed the total number of timepoints for all mice tested for each of the different drug treatments and the pie charts displayed the distributions of female versus male mice.
+- I also created two bar charts and two pie charts using first the DataFrame.plot() method and second the pyplot method. The bar charts displayed the total number of timepoints for all mice tested for each of the different drug treatments and the pie charts displayed the distributions of female versus male mice.
 
-I then calculate the quartiles and interquartile range to create a box plot and determine if there were any potential outliers in the data.
+- I then calculated the upper and lower quartiles to find interquartile range. I used the quartiles to determine if there were any potential outliers in the data and then created a box plot that showed the distrubution of the tumor volume for each treatment group. 
 
-A line plot on the average tumor size of mouse l509 showed the tumor size change over time while the scatter plot demonstrated how there was positive correlation between the weight of a mouse and the average tumor volume.
+- A line plot on the average tumor size of mouse l509 showed the tumor size change over time while the scatter plot demonstrated how there was positive correlation between the weight of a mouse and the average tumor volume.
 
-I lastly caclulate the correlation coefficient and linear regression model of the scatter plot (mouse weight and average tumor volume).
+- I lastly caclulate the correlation coefficient and linear regression model of the scatter plot (mouse weight and average tumor volume).
 
-The analysis and main code can be found in the pymaceuticals_main.ipynb
+- The analysis and main code can be found in the pymaceuticals_main.ipynb
